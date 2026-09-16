@@ -1,9 +1,15 @@
 import Image from "next/image";
+import Banner from "./components/home-component/Banner";
+import Product from "./components/home-component/Product";
 
 export default function Home() {
+  
+    //here we use seo factors and server side rendering so dont use client side feature instead break it into component and use it there if needed
   return (
     <>
-      <h2 className="text-5xl text-center">hello world</h2>
+
+    <Banner/>
+    <Product/>
     </>
   );
 }
