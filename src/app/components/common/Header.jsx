@@ -59,7 +59,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href={"/about-us"}
                   className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                 >
                   About
@@ -67,18 +67,18 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href={"/product"}
                   className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                 >
-                  Services
+                  product
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href={"/product-server"}
                   className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                 >
-                  Pricing
+                  product-server
                 </a>
               </li>
               <li>
