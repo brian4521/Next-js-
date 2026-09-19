@@ -4,4 +4,10 @@ let fetchProduct=()=>{
   return axios.get(`https://dummyjson.com/products`)
   .then((res)=>res.data.products)
 } 
-export {fetchProduct} 
+
+let fetchProductDetails=(id)=>{
+  return axios.get(`https://dummyjson.com/products/${id}`)
+  .then((res)=>res.data)
+
+}
+export {fetchProduct, fetchProductDetails} 

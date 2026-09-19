@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function ProductCard({ data }) {
   return (
@@ -15,7 +16,7 @@ export default function ProductCard({ data }) {
             {data.description} {data.price}
           </p>
           <button className="max-w-full whitespace-normal break-words rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600">
-            Read More
+            <Link href={`/product-server/${data.id}`}>Read More</Link>
           </button>
         </figure>
       ) : (
