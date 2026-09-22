@@ -11,6 +11,8 @@ A simple Next.js project created to practice routing, components, and API fetchi
 - Server-Side API Fetching
 - Client-Side API Fetching
 
+![image alt](https://github.com/brian4521/Next-js-/blob/master/readme%20image.jpg?raw=true)
+
 ## 📁 Topics Covered
 
 ### 1. Basic Routes
